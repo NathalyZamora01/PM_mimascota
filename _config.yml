@@ -1,0 +1,13 @@
+title: Mi Sitio
+description: Mi sitio de prueba
+theme: jekyll-theme-primer # O cualquier tema que uses
+
+exclude:
+  - node_modules/         # Si tienes node_modules en la raíz
+  - mimascota_backend/node_modules/ # Esto es lo que necesitas para tu caso específico
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
